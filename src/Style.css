@@ -1,0 +1,154 @@
+.Container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 1000px;
+    width: 1000px;
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.box1{
+    border: 1px solid black;
+    height: 950px;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.box2{
+    /* border: 1px solid yellow; */
+    height: 950px;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+    /* border: 1px solid white; */
+    height: 160px;
+    width: 440px;
+    color: white;
+    line-height: 18px;
+}
+#logo{
+    height: 160px;
+    width: 440px;
+    z-index: 5;
+}
+.boxs{
+    /* border: 1px solid white; */
+    height: 160px;
+    width: 440px;
+    overflow: hidden;
+}
+#boxinf{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.boxsinfo{
+    /* border: 1px solid white; */
+    height: 70px;
+    width: 420px;
+    color: white;
+    /* font-size: 20px; */
+    line-height: 10px;
+    /* flex-wrap: wrap; */
+    /* display: inline-flex; */
+    text-align: center;
+}
+.boxsinfo h1{
+    font-size: 30px;
+}
+.boxsinfo p{
+    font-size: 15px;
+}
+#boximg{
+    /* border: 1px solid red; */
+    border-bottom: 1px solid white;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.boximg1{
+   /* border: 1px solid greenyellow; */
+   border-right: 2px solid white;
+   height: 300px;
+   width: 220px;
+   text-align: center;
+}
+.boximg2{
+    border-bottom: 1px solid white;
+    /* border: 1px solid greenyellow; */
+    height: 300px;
+    text-align: center;
+    width: 220px;
+    overflow: hidden;
+ }
+ #contactInfo{
+     line-height: 5px;
+     text-align: center;
+     color: white;
+ }
+ .ContactImg{
+     /* border: 1px solid white; */
+     height: 50px;
+     width: 200px;
+    margin-left: 120px; 
+    display: flex;
+    flex-direction: row;
+ }
+ .contImg{
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 100px;
+    overflow: hidden;
+ }
+ table{
+     /* border: 1px solid white; */
+   /* display: flex; */
+   /* justify-content: space-between; */
+   width: 440px;
+ }
+ #foodPara{
+     margin-left: 140px;
+     width: 600px;
+     height: 100px;
+     text-align: center;
+ }
+ #bx{
+     height: 300px;
+     /* color: lightgreen; */
+ }
+#logo:hover {
+  border:1px solid goldenrod;
+  opacity: 0.5;
+  background-color: yellow;
+  filter: alpha(opacity=30);
+}
+#bx:hover{
+    border:5px solid yellow;
+  opacity: 0.8;
+  background-color: goldenrod;
+  filter: alpha(opacity=30);
+}
+.boxsinfo:hover{
+    border:5px solid greenyellow;
+  opacity: 0.8;
+  background-color: green;
+  filter: alpha(opacity=30);
+}  
+#boximg:hover{
+  border: 5px solid white;
+  opacity: 0.8;
+  background-color: grey;
+  filter: alpha(opacity=30);
+}
